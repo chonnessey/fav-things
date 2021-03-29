@@ -1,3 +1,4 @@
+let result1 = [];
 $(document).ready(function() {
   $("form").submit(function(event) {
     event.preventDefault();
@@ -5,11 +6,13 @@ $(document).ready(function() {
     const movie = $("#movie").val();
     const sport = $("#sport").val();
     const show = $("#show").val();
-    let array = [];
-    let result;
 
-    array = [food, movie, sport, show];
-    console.log(array);
+    result1 = [food, movie, sport, show];
+    
+    
+    
+    
+    
 
     
 
