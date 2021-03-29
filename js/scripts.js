@@ -8,6 +8,9 @@ $(document).ready(function() {
     const show = $("#show").val();
 
     result1 = [food, movie, sport, show];
+    $("#result2").append(`<li>${movie}</li>`);
+    
+
     
     
     
